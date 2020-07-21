@@ -20,8 +20,8 @@
     "deploy": "DeployDistribution",
     "extensions_dest_name": "Deploy_Extensions",
     "extmech_parent": "-15",
-    "theme_path": "Workspace/Suite_Commerce_Base_Theme",
-    "overrides_path": "Workspace/Suite_Commerce_Base_Theme/Overrides"
+    "theme_path": "Workspace/SDB_Base_Theme_Chivas_2020",
+    "overrides_path": "Workspace/SDB_Base_Theme_Chivas_2020/Overrides"
   },
   "application": {},
   "services": {
