@@ -16,7 +16,7 @@
 		{{/if}}
 	{{/each}}
 </ul>
-<div id="banner-breadcrumb-bottom" class="content-banner banner-breadcrumb-bottom" data-cms-area="tt-partsdirect_breadcrumb_bottom" data-cms-area-filters="global"></div>
+<div id="banner-breadcrumb-bottom" class="content-banner banner-breadcrumb-bottom" data-cms-area="sdb-partsdirect_breadcrumb_bottom" data-cms-area-filters="global"></div>
 
 
 

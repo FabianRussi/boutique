@@ -3,7 +3,7 @@ $header-menu-level1-height: 55px;
 ///////////////////////////////////////////////////////////////
 //header secondary nav
 .header-menu-secondary-nav {
-  @extend .container;
+  //@extend .container;
 }
 
 ///////////////////////////////////////////////////////////////
@@ -34,7 +34,9 @@ $header-menu-level1-height: 55px;
 .header-menu-search-icon {
   @extend .fa;
   @extend %fa-search;
-  font-size: 20px;
+  font-size: 15px;
+  position: relative;
+  top: -2px;
 }
 
 .header-menu-searchmobile-link {
@@ -72,7 +74,8 @@ $header-menu-level1-height: 55px;
 .header-menu-level1-anchor {
   display: block;
   position: relative;
-  color: $sc-main-navigation-link-color;
+  //color: $sc-main-navigation-link-color;
+  color: black;
   text-transform: $sc-main-navigation-link-text-transform;
   line-height: $header-menu-level1-height;
   letter-spacing: 1px;
@@ -80,7 +83,8 @@ $header-menu-level1-height: 55px;
   @include transition-duration(0.3s);
 
   .header-menu-level1-anchor-icon {
-    color: $sc-main-navigation-link-color;
+    //color: $sc-main-navigation-link-color;
+    color: black;
     float: right;
     margin-left: $sc-padding-lv1;
     font-size: 16px;
@@ -225,18 +229,16 @@ $header-menu-level1-height: 55px;
   }
 }
 
-//TT new styles
+// new styles
 
 // Header Menu Container
 div.header-secondary-wrapper {
   background-color: transparent;
   border: none;
   text-transform: none;
-
+  flex: 1;
   @media (min-width: $screen-md-min) {
-    width: 100%;
     //background-color: $sc-main-navigation-background-color;
-    background-color: #3c896d;
     height: auto;
     // float: left;
     position: initial;
@@ -244,6 +246,7 @@ div.header-secondary-wrapper {
 
   @media (max-width: $screen-md-min) {
     z-index: 10;
+    top: -140px;
   }
 }
 
@@ -253,7 +256,11 @@ nav.header-menu-secondary-nav {
 
   padding: 0 10px;
   position: relative;
-  font-size: $sc-font-size-m;
+  //font-size: $sc-font-size-m;
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 
   > ul.header-menu-level1 {
     > li.header-menu-level1-anchor {

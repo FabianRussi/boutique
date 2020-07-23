@@ -202,8 +202,8 @@ $footer-column-border-color: lighten($sc-footer-background-color, 10);
 
 //Footer Bottom
 .footer-content-bottom {
-  background: $tt-theme-footer-copyright-background-color;
-  border-top: 1px solid $tt-theme-footer-copyright-border-color;
+  background: $sdb-theme-footer-copyright-background-color;
+  border-top: 1px solid $sdb-theme-footer-copyright-border-color;
   color: $sc-footer-copyright-text-color;
 
   .footer-bottom-section {

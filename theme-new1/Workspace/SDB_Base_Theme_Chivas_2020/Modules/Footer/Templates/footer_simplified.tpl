@@ -3,9 +3,9 @@
 	<div class="footer-bottom-section">
 
 		<div class="footer-content-copyright">{{{copyright}}} {{actualYear}}</div>
-		<div class="footer-bottom-content-payment-cards" data-cms-area="tt-chivas_footer_content-payment-cards" data-cms-area-filters="global"></div>
+		<div class="footer-bottom-content-payment-cards" data-cms-area="sdb-chivas_footer_content-payment-cards" data-cms-area-filters="global"></div>
 		
-		{{!--<!-- <div class="footer-content-copyright">{{translate '&copy; Copyright $(0) Tavano Team. All rights reserved.' actualYear}}</div> -->--}}
+		{{!--<!-- <div class="footer-content-copyright">{{translate '&copy; Copyright $(0)  All rights reserved.' actualYear}}</div> -->--}}
 	</div>
 </div>
 

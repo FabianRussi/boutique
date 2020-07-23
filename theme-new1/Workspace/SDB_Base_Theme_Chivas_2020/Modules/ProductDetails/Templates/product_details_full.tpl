@@ -1,4 +1,4 @@
-<div data-cms-area="tt-chivas_item_details_banner" data-cms-area-filters="page_type"></div>
+<div data-cms-area="sdb-chivas_item_details_banner" data-cms-area-filters="page_type"></div>
 
 <div class="product-details-full">
 	<header class="product-details-full-header">

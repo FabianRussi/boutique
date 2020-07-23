@@ -1,16 +1,3 @@
-//// Tavano Team Variables ////
-
-// - IMPORTANT -
-// Variables in this style sheet are for editing reference or created by Tavano Team.
-
-// Reference variables:
-// Directly applied to SC default variables (referenced in the variable comments).
-// SC default variables should be used.
-
-// Tavano Team Variables:
-// They have 'TT Variable' in their comment.
-// They can be used in the Theme.
-
 //// GENERAL ELEMENTS ////
 
 /// Main Color Palette - Client Colors ///
@@ -47,8 +34,8 @@ $theme-border-radius: 3px;
 // (SC Variable: $sc-font-family) Primary Font Family: body, h4, h5, h6
 $theme-font-family-primary: "Open Sans", Helvetica, Arial, sans-serif;
 
-// (TT Variable) Secondary Font Family: h1, h2, h3
-$tt-theme-font-family-secondary: "Open Sans", Helvetica, Arial, sans-serif;
+// ( Variable) Secondary Font Family: h1, h2, h3
+$sdb-theme-font-family-secondary: "Open Sans", Helvetica, Arial, sans-serif;
 
 /// Font Size ///
 // (SC Variable: $sc-font-size-base) Regular Font Size (body, normal fonts, general typos)
@@ -73,8 +60,8 @@ $theme-font-size-xxxl: 50px;
 /// Font Colors ///
 // (SC Variable: $sc-color-copy) - Regular site content font color: p, a, h4, h5, h6
 $theme-font-color: rgb(48, 48, 48);
-// (TT Variable) - Color for H1, H2, H3
-$tt-theme-font-color-secondary: rgb(
+// ( Variable) - Color for H1, H2, H3
+$sdb-theme-font-color-secondary: rgb(
   0,
   0,
   0
@@ -93,11 +80,11 @@ $theme-font-color-dark: rgb(0, 0, 0);
 
 /// Titles color definition ///
 // (SC Variable: $sc-color-h1) Title h1 color
-$theme-color-h1: $tt-theme-font-color-secondary;
+$theme-color-h1: $sdb-theme-font-color-secondary;
 // (SC Variable: $sc-color-h2) Title h2 color
-$theme-color-h2: $tt-theme-font-color-secondary;
+$theme-color-h2: $sdb-theme-font-color-secondary;
 // (SC Variable: $sc-color-h3) Title h3 color
-$theme-color-h3: $tt-theme-font-color-secondary;
+$theme-color-h3: $sdb-theme-font-color-secondary;
 // (SC Variable: $sc-color-h4) Title h4 color
 $theme-color-h4: $theme-font-color-dark;
 // (SC Variable: $sc-color-h5) Title h5 color
@@ -124,10 +111,10 @@ $theme-font-weight-semibold: 600;
 $theme-font-weight-bold: 700;
 
 /// Text Selection ///
-// (TT Variable) Site selected text font color
-$tt-theme-text-selected-font-color: rgb(255, 255, 255);
-// (TT Variable) Site selected text background color
-$tt-theme-text-selected-background-color: rgb(0, 0, 0);
+// ( Variable) Site selected text font color
+$sdb-theme-text-selected-font-color: rgb(255, 255, 255);
+// ( Variable) Site selected text background color
+$sdb-theme-text-selected-background-color: rgb(0, 0, 0);
 
 //// BUTTONS ////
 
@@ -179,57 +166,57 @@ $theme-button-tertiary-active-border-color: rgb(22, 22, 22);
 
 $theme-button-tertiary-text-transform: none;
 
-// (TT variables) Quaternary Button: Banners and slider button
-$tt-theme-button-quaternary-background-color: rgb(
+// ( variables) Quaternary Button: Banners and slider button
+$sdb-theme-button-quaternary-background-color: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Background"}) */
-$tt-theme-button-quaternary-text-color: rgb(
+$sdb-theme-button-quaternary-text-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Text"}) */
-$tt-theme-button-quaternary-border-color: rgb(
+$sdb-theme-button-quaternary-border-color: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Border"}) */
-$tt-theme-button-quaternary-border-radius: $theme-border-radius; /* editable({"type": "string", "label": "Border radius"}) */
+$sdb-theme-button-quaternary-border-radius: $theme-border-radius; /* editable({"type": "string", "label": "Border radius"}) */
 
-$tt-theme-button-quaternary-hover-background-color: rgb(
+$sdb-theme-button-quaternary-hover-background-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Hover background"}) */
-$tt-theme-button-quaternary-hover-text-color: rgb(
+$sdb-theme-button-quaternary-hover-text-color: rgb(
   22,
   22,
   22
 ); /* editable({"type": "color", "label": "Hover text"}) */
-$tt-theme-button-quaternary-hover-border-color: rgb(
+$sdb-theme-button-quaternary-hover-border-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Hover border"}) */
 
-$tt-theme-button-quaternary-active-background-color: rgb(
+$sdb-theme-button-quaternary-active-background-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Active background"}) */
-$tt-theme-button-quaternary-active-text-color: rgb(
+$sdb-theme-button-quaternary-active-text-color: rgb(
   22,
   22,
   22
 ); /* editable({"type": "color", "label": "Active text"}) */
-$tt-theme-button-quaternary-active-border-color: rgb(
+$sdb-theme-button-quaternary-active-border-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Active border"}) */
 
-$tt-theme-button-quaternary-text-transform: none; /* editable({
+$sdb-theme-button-quaternary-text-transform: none; /* editable({
 	"type": "string",
 	"label": "Text transform",
 	"options": [
@@ -242,10 +229,10 @@ $tt-theme-button-quaternary-text-transform: none; /* editable({
 
 //// HEADER ////
 
-// (TT Variable) For Sticky header
-$tt-theme-header-height: 178px;
-// (TT Variable) For Sticky header simplified
-$tt-theme-header-height-simplified: 55px;
+// ( Variable) For Sticky header
+$sdb-theme-header-height: 178px;
+// ( Variable) For Sticky header simplified
+$sdb-theme-header-height-simplified: 55px;
 
 /// Header - Top Ecommerce section ///
 // (SC Variable: $sc-top-menu-link-text-color) Header ecommerce links color
@@ -263,13 +250,13 @@ $theme-header-shadow-color: rgb(0, 0, 0);
 // (SC Variabe: $sc-header-border-color) Header divider lines color
 $theme-header-border-color: rgb(185, 185, 185);
 
-// (TT Variable) Main Header font color
-$tt-theme-header-font-color: rgb(0, 0, 0);
-// (TT Variable) Main nav hover background
-$tt-theme-header-font-color-active: rgb(68, 68, 68);
+// ( Variable) Main Header font color
+$sdb-theme-header-font-color: rgb(0, 0, 0);
+// ( Variable) Main nav hover background
+$sdb-theme-header-font-color-active: rgb(68, 68, 68);
 
-// (TT Variable) Header Main nav sub-links color
-$tt-theme-header-menu-font-color: rgb(0, 0, 0);
+// ( Variable) Header Main nav sub-links color
+$sdb-theme-header-menu-font-color: rgb(0, 0, 0);
 
 // (SC Variable: $sc-header-link-text-color) Header link highlights
 $theme-header-link-text-color: #50ffb1;
@@ -285,82 +272,82 @@ $theme-header-link-text-color-active: lighten(
 );
 
 /// Header Button ///
-// (TT Variable) Header button font color
-$tt-theme-header-button-font-color: rgb(
+// ( Variable) Header button font color
+$sdb-theme-header-button-font-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Button Text"}) */
-// (TT Variable) Header button background color
-$tt-theme-header-button-background-color: rgb(
+// ( Variable) Header button background color
+$sdb-theme-header-button-background-color: rgb(
   236,
   122,
   92
 ); /* editable({"type": "color", "label": "Button Background"}) */
-// (TT Variable) Header button background color
-$tt-theme-header-button-border-color: rgb(
+// ( Variable) Header button background color
+$sdb-theme-header-button-border-color: rgb(
   236,
   122,
   92
 ); /* editable({"type": "color", "label": "Button Border"}) */
 
 /// Header CMS Message ///
-// (TT Variable) Header top promo message font color
-$tt-theme-header-msg-title-color: rgb(
+// ( Variable) Header top promo message font color
+$sdb-theme-header-msg-title-color: rgb(
   236,
   122,
   92
 ); /* editable({"type": "color", "label": "CMS Msg Title"}) */
-// (TT Variable) Header top promo message background
-$tt-theme-header-msg-color: rgb(
+// ( Variable) Header top promo message background
+$sdb-theme-header-msg-color: rgb(
   10,
   10,
   10
 ); /* editable({"type": "color", "label": "CMS Msg Text"}) */
 
 /// Header Search Typeahead ///
-// (TT Variable) Search field border and button background
-$tt-theme-header-search-color: rgb(
+// ( Variable) Search field border and button background
+$sdb-theme-header-search-color: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Search Box"}) */
-// (TT Variable) Search box input text
-$tt-theme-header-search-font-input: rgb(
+// ( Variable) Search box input text
+$sdb-theme-header-search-font-input: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Search Box Font"}) */
-// (TT Variable) Search input typeahead text
-$tt-theme-header-search-font-placeholder: rgb(
+// ( Variable) Search input typeahead text
+$sdb-theme-header-search-font-placeholder: rgb(
   53,
   53,
   53
 ); /* editable({"type": "color", "label": "Search Box Placeholder"}) */
-// (TT Variable) Search box reset color
-$tt-theme-header-search-reset-icon-color: rgb(
+// ( Variable) Search box reset color
+$sdb-theme-header-search-reset-icon-color: rgb(
   75,
   75,
   75
 ); /* editable({"type": "color", "label": "Search Box Reset Icon"}) */
-// (TT Variable) Search box background
-$tt-theme-header-search-background-color: rgb(
+// ( Variable) Search box background
+$sdb-theme-header-search-background-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Search Box Background"}) */
-// (TT Variable) Search box button font color
-$tt-theme-header-search-button-font-color: rgb(
+// ( Variable) Search box button font color
+$sdb-theme-header-search-button-font-color: rgb(
   255,
   255,
   255
 ); /* editable({"type": "color", "label": "Search Box Button Icon"}) */
-// (TT Variable) Mobile Search box background (For some Sites)
-$tt-theme-header-search-color-mobile: rgb(255, 255, 255);
+// ( Variable) Mobile Search box background (For some Sites)
+$sdb-theme-header-search-color-mobile: rgb(255, 255, 255);
 
 /// Header Mini Cart Icon ///
-// (TT Variable) Header: Cart Button Background Color
-$tt-theme-header-cart-link-background-color: rgb(0, 0, 0);
+// ( Variable) Header: Cart Button Background Color
+$sdb-theme-header-cart-link-background-color: rgb(0, 0, 0);
 // (SC Variable: $sc-header-cart-link-text-color) Header: Cart Icon and font Color
 $theme-header-cart-link-text-color: rgb(255, 255, 255);
 // (SC Variable: $sc-header-cart-link-text-color-hover) Header: Cart Icon and font Color hover
@@ -440,15 +427,15 @@ $theme-mobile-navigation-background-color: rgb(68, 68, 68);
 // (SC Variable: $sc-mobile-navigation-border-color) Mobile menu navigation border color
 $theme-mobile-navigation-border-color: rgb(0, 0, 0);
 
-// (TT Variable) Mobile menu background
-$tt-theme-header-mobile-background-color: rgb(102, 102, 102);
-// (TT Variable) Mobile menu highlighted nav
-$tt-theme-header-mobile-background-color-active: lighten(
-  $tt-theme-header-mobile-background-color,
+// ( Variable) Mobile menu background
+$sdb-theme-header-mobile-background-color: rgb(102, 102, 102);
+// ( Variable) Mobile menu highlighted nav
+$sdb-theme-header-mobile-background-color-active: lighten(
+  $sdb-theme-header-mobile-background-color,
   20%
 );
-// (TT Variable) Mobile menu font color
-$tt-theme-header-mobile-font-color: rgb(255, 255, 255);
+// ( Variable) Mobile menu font color
+$sdb-theme-header-mobile-font-color: rgb(255, 255, 255);
 // (SC Variable: $sc-mobile-header-border-color) Mobile menu links border color
 $theme-header-mobile-border-color: rgb(255, 255, 255);
 
@@ -483,10 +470,10 @@ $theme-footer-link-color-hover: rgb(255, 255, 255);
 $theme-footer-link-color-active: rgb(255, 255, 255);
 
 /// Footer Social ///
-// (TT Variable) Footer social icons buttons font color
-$tt-theme-footer-font-color-social: rgb(255, 255, 255);
-// (TT Variable) Footer social icons buttons background color
-$tt-theme-footer-background-color-social: #50ffb1;
+// ( Variable) Footer social icons buttons font color
+$sdb-theme-footer-font-color-social: rgb(255, 255, 255);
+// ( Variable) Footer social icons buttons background color
+$sdb-theme-footer-background-color-social: #50ffb1;
 
 /// Footer Field ///
 // (SC Variable: $sc-footer-fields-background-color) Footer subscribe input background color
@@ -515,26 +502,26 @@ $theme-footer-buttons-border-color: rgb(255, 255, 255);
 /// Footer Bottom Section ///
 // (SC Variable: $sc-footer-copyright-text-color) Footer bottom label copyright section font color
 $theme-footer-copyright-text-color: rgb(255, 255, 255);
-// (TT Variable) Footer border color (client color)
-$tt-theme-footer-copyright-border-color: rgb(
+// ( Variable) Footer border color (client color)
+$sdb-theme-footer-copyright-border-color: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Copyright border"}) */
-// (TT Variable) Footer global background (client color)
-$tt-theme-footer-copyright-background-color: rgb(
+// ( Variable) Footer global background (client color)
+$sdb-theme-footer-copyright-background-color: rgb(
   0,
   0,
   0
 ); /* editable({"type": "color", "label": "Copyright background"}) */
 
 /// Footer Back to Top ///
-// (TT Variable) Footer Back to Top background color
-$tt-theme-footer-back-to-top-background-color: rgb(173, 173, 173);
-// (TT Variable) Footer Back to Top font color
-$tt-theme-footer-back-to-top-font-color: rgb(255, 255, 255);
-// (TT Variable) Footer Back to Top border color
-$tt-theme-footer-back-to-top-border-color: rgb(73, 73, 73);
+// ( Variable) Footer Back to Top background color
+$sdb-theme-footer-back-to-top-background-color: rgb(173, 173, 173);
+// ( Variable) Footer Back to Top font color
+$sdb-theme-footer-back-to-top-font-color: rgb(255, 255, 255);
+// ( Variable) Footer Back to Top border color
+$sdb-theme-footer-back-to-top-border-color: rgb(73, 73, 73);
 
 //// OTHERS ////
 
@@ -549,38 +536,38 @@ $theme-color-social-sharing-flyout-content-social-google-icon: rgb(0, 0, 0);
 $theme-color-social-sharing-flyout-content-social-pinterest-icon: rgb(0, 0, 0);
 
 /// Pusher element ///
-// (TT Variable) Mobile Pusher background color
-$tt-theme-pusher-background: rgb(26, 26, 26);
-// (TT Variable) Mobile Pusher font color
-$tt-theme-pusher-font-color: rgb(255, 255, 255);
+// ( Variable) Mobile Pusher background color
+$sdb-theme-pusher-background: rgb(26, 26, 26);
+// ( Variable) Mobile Pusher font color
+$sdb-theme-pusher-font-color: rgb(255, 255, 255);
 
 /// Input ///
-// (TT Variable) Inputs Font - color
-$tt-theme-input-font-color: rgb(0, 0, 0);
-// (TT Variable) Input Font - color disabled
-$tt-theme-input-font-color-disabled: rgb(66, 66, 66);
-// (TT Variable) Input Font - color placeholder
-$tt-theme-input-font-color-placeholder: rgb(80, 80, 80);
-// (TT Variable) Input Background - color
-$tt-theme-input-background-color: rgb(255, 255, 255);
-// (TT Variable) Input Border - color
-$tt-theme-input-border-color: rgb(0, 0, 0);
-// (TT Variable) Input Border - color disabled
-$tt-theme-input-border-color-disabled: rgb(75, 75, 75);
-// (TT Variable) Input Border - weight
-$tt-theme-input-border-weight: 1px;
-// (TT Variable) Input Border - radius
-$tt-theme-input-border-radius: $theme-border-radius;
-// (TT Variable) Input Icon - font color
-$tt-theme-input-icon-font: rgb(255, 255, 255);
-// (TT Variable) Input Icon - background color
-$tt-theme-input-icon-background: rgb(0, 0, 0);
+// ( Variable) Inputs Font - color
+$sdb-theme-input-font-color: rgb(0, 0, 0);
+// ( Variable) Input Font - color disabled
+$sdb-theme-input-font-color-disabled: rgb(66, 66, 66);
+// ( Variable) Input Font - color placeholder
+$sdb-theme-input-font-color-placeholder: rgb(80, 80, 80);
+// ( Variable) Input Background - color
+$sdb-theme-input-background-color: rgb(255, 255, 255);
+// ( Variable) Input Border - color
+$sdb-theme-input-border-color: rgb(0, 0, 0);
+// ( Variable) Input Border - color disabled
+$sdb-theme-input-border-color-disabled: rgb(75, 75, 75);
+// ( Variable) Input Border - weight
+$sdb-theme-input-border-weight: 1px;
+// ( Variable) Input Border - radius
+$sdb-theme-input-border-radius: $theme-border-radius;
+// ( Variable) Input Icon - font color
+$sdb-theme-input-icon-font: rgb(255, 255, 255);
+// ( Variable) Input Icon - background color
+$sdb-theme-input-icon-background: rgb(0, 0, 0);
 
 /// Quick View Button ///
-// (TT Variable) Quick View Button Font Color
-$tt-theme-quickview-button-font-color: rgb(255, 255, 255);
-// (TT Variable) Quick View Button Background Color
-$tt-theme-quickview-button-background-color: rgb(46, 46, 46);
+// ( Variable) Quick View Button Font Color
+$sdb-theme-quickview-button-font-color: rgb(255, 255, 255);
+// ( Variable) Quick View Button Background Color
+$sdb-theme-quickview-button-background-color: rgb(46, 46, 46);
 
 /// Info Colors ///
 // (SC Variable: $sc-color-success) Theme Success Color

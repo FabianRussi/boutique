@@ -1,23 +1,24 @@
 .search-container {
-  display: inline-block;
-  width: 53%;
-
+  display: none;
+  width: 100%;
+  padding: 0 20vw;
+  @media (max-width: 1500px) {
+    padding: 0 15vw;
+  }
+  @media (max-width: 1300px) {
+    padding: 0 10vw;
+  }
   @media (max-width: $screen-sm-max) {
     width: calc(100% - 120px);
   }
 }
 
 .header-site-search {
-  width: 400px;
+  width: 250px;
   background: $sc-neutral-shade-0;
   float: right;
-  margin-top: 12px;
-
-  @media (max-width: $screen-sm-max) {
-    width: 100%;
-    margin: 0;
-    background: transparent;
-  }
+  position: relative;
+  top: 10px;
 }
 
 .header-menu-search-icon,
@@ -36,7 +37,7 @@
 .site-search {
   @extend .nav-search;
   padding: 0px;
-  background-color: $tt-theme-header-search-background-color;
+  background-color: $sdb-theme-header-search-background-color;
 
   @media (max-width: $screen-sm-max) {
     background-color: transparent;
@@ -46,24 +47,22 @@
 .site-search-content {
   @extend .nav-search-content;
   width: auto;
+  height: auto;
 }
 
 .site-search-content-form {
-  height: 100%;
+  height: 30px;
   border-radius: $sc-border-radius;
-  //border-bottom: 1px solid $tt-theme-header-search-color;
-  border-bottom: 1px solid #3c896d;
+  border-bottom: 1px solid $sdb-theme-header-search-color;
 
-  //border-top: 1px solid $tt-theme-header-search-color;
-  border-top: 1px solid #3c896d;
+  border-top: 1px solid $sdb-theme-header-search-color;
 
-  //border-left: 1px solid $tt-theme-header-search-color;
-  border-left: 1px solid #3c896d;
-  background-color: $tt-theme-input-background-color;
+  border-left: 1px solid $sdb-theme-header-search-color;
+  background-color: $sdb-theme-input-background-color;
 
   @media (max-width: $screen-sm-max) {
-    //border: 1px solid $tt-theme-header-search-color-mobile;
-    border: 1px solid #3c896d;
+    border: 1px solid $sdb-theme-header-search-color-mobile;
+
     background-color: transparent;
   }
 }
@@ -84,8 +83,9 @@
     border-color: transparent;
   }
   input[type="search"] {
+    box-sizing: border-box !important;
     @include placeholder {
-      //color: $tt-theme-header-search-font-placeholder;
+      //color: $sdb-theme-header-search-font-placeholder;
       color: #40514e;
 
       @media (max-width: $screen-sm-max) {
@@ -102,7 +102,17 @@
 
 .site-search-input-reset {
   @extend .nav-search-input-reset;
-  right: 50px;
+  display: none;
+  position: absolute;
+  top: -12px;
+  right: 5%;
+  width: 50px;
+  height: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0;
+  padding-top: 15px;
+  background: white;
 
   @media (max-width: $screen-sm-max) {
     right: 11px;
@@ -111,9 +121,9 @@
 
 .site-search-button-submit {
   @extend .nav-search-button-submit;
-  background: #3c896d !important;
-  height: 100%;
-  width: 70px;
+  background: black !important;
+  height: 30px;
+  width: 40px;
 
   @media (max-width: $screen-sm-max) {
     width: 40px;
@@ -133,9 +143,9 @@
 }
 
 .nav-search-input-reset-icon {
-  color: $tt-theme-header-search-reset-icon-color;
+  color: $sdb-theme-header-search-reset-icon-color;
   @media (max-width: $screen-sm-max) {
-    color: $tt-theme-header-search-color-mobile;
+    color: $sdb-theme-header-search-color-mobile;
   }
 }
 

@@ -1,5 +1,3 @@
-//// Grouping version with Tavano Team variables ////
-
 /*
 group({
 	"id": "palette-color",
@@ -116,7 +114,7 @@ group({
 	"label": "Titles Color",
 	"description": "",
 	"children": [
-		"$tt-theme-font-color-secondary"
+		"$sdb-theme-font-color-secondary"
 	]
 })
 */
@@ -319,17 +317,17 @@ group({
 	"label": "Quaternary",
 	"description": "",
 	"children": [
-		"$tt-theme-button-quaternary-background-color",
-		"$tt-theme-button-quaternary-text-color",
-		"$tt-theme-button-quaternary-border-color",
-		"$tt-theme-button-quaternary-border-radius",
-		"$tt-theme-button-quaternary-hover-background-color",
-		"$tt-theme-button-quaternary-hover-text-color",
-		"$tt-theme-button-quaternary-hover-border-color",
-		"$tt-theme-button-quaternary-active-background-color",
-		"$tt-theme-button-quaternary-active-text-color",
-		"$tt-theme-button-quaternary-active-border-color",
-		"$tt-theme-button-quaternary-text-transform"
+		"$sdb-theme-button-quaternary-background-color",
+		"$sdb-theme-button-quaternary-text-color",
+		"$sdb-theme-button-quaternary-border-color",
+		"$sdb-theme-button-quaternary-border-radius",
+		"$sdb-theme-button-quaternary-hover-background-color",
+		"$sdb-theme-button-quaternary-hover-text-color",
+		"$sdb-theme-button-quaternary-hover-border-color",
+		"$sdb-theme-button-quaternary-active-background-color",
+		"$sdb-theme-button-quaternary-active-text-color",
+		"$sdb-theme-button-quaternary-active-border-color",
+		"$sdb-theme-button-quaternary-text-transform"
 	]
 })
 */
@@ -414,17 +412,17 @@ group({
 		"$sc-header-cart-link-text-color",
 		"$sc-header-cart-link-text-color-hover",
 		"$sc-header-cart-link-text-color-active",
-		"$tt-theme-header-search-color",
-		"$tt-theme-header-search-font-input",
-		"$tt-theme-header-search-font-placeholder",
-		"$tt-theme-header-search-reset-icon-color",
-		"$tt-theme-header-search-background-color",
-		"$tt-theme-header-search-button-font-color",
-		"$tt-theme-header-button-font-color",
-		"$tt-theme-header-button-background-color",
-		"$tt-theme-header-button-border-color",
-		"$tt-theme-header-msg-title-color",
-		"$tt-theme-header-msg-color"
+		"$sdb-theme-header-search-color",
+		"$sdb-theme-header-search-font-input",
+		"$sdb-theme-header-search-font-placeholder",
+		"$sdb-theme-header-search-reset-icon-color",
+		"$sdb-theme-header-search-background-color",
+		"$sdb-theme-header-search-button-font-color",
+		"$sdb-theme-header-button-font-color",
+		"$sdb-theme-header-button-background-color",
+		"$sdb-theme-header-button-border-color",
+		"$sdb-theme-header-msg-title-color",
+		"$sdb-theme-header-msg-color"
 	]
 })
 */
@@ -449,8 +447,8 @@ group({
 		"$sc-footer-buttons-text-color",
 		"$sc-footer-buttons-border-color",
 		"$sc-footer-copyright-text-color",
-		"$tt-theme-footer-copyright-background-color",
-		"$tt-theme-footer-copyright-border-color"
+		"$sdb-theme-footer-copyright-background-color",
+		"$sdb-theme-footer-copyright-border-color"
 	]
 })
 */

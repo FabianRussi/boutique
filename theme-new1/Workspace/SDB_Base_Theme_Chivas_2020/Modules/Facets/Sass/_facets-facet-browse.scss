@@ -174,7 +174,7 @@
   @extend .col-md-offset-3;
 }
 
-//TT new styles
+// new styles
 // Facet header
 header.facets-facet-browse-header {
   border: none;
@@ -194,12 +194,12 @@ header.facets-facet-browse-header {
       color: $sc-color-copy;
       //font-weight: normal;
       float: left;
-      font-family: $tt-theme-font-family-secondary;
+      font-family: $sdb-theme-font-family-secondary;
       text-transform: uppercase;
       span {
         color: $sc-color-copy;
         //font-weight: normal;
-        font-family: $tt-theme-font-family-secondary;
+        font-family: $sdb-theme-font-family-secondary;
       }
     }
     @media (max-width: $screen-md-min) {
@@ -271,7 +271,7 @@ div.facets-facet-browse-list-header-expander {
     text-align: left;
     background: transparent;
     color: $sc-color-copy;
-    border-color: $tt-theme-input-border-color;
+    border-color: $sdb-theme-input-border-color;
     font-size: $sc-font-size-s;
     text-transform: uppercase;
     &.collapsed {
@@ -406,7 +406,7 @@ div.facets-facet-browse-facets {
     margin: 0;
     line-height: normal;
     // font-size: $sc-font-size-l;
-    font-family: $tt-theme-font-family-secondary;
+    font-family: $sdb-theme-font-family-secondary;
     text-transform: uppercase;
     font-weight: $sc-font-weight-semibold;
     text-align: left;
@@ -473,7 +473,7 @@ div.facets-facet-browse-facets {
 // 	@media (max-width: $screen-md-min) {
 // 		// Back Pusher btn.
 // 		div.sc-pusher-header {
-// 			background: $tt-theme-header-mobile-background-color;
+// 			background: $sdb-theme-header-mobile-background-color;
 // 			border: none;
 // 			margin: 0;
 // 			a {
@@ -607,7 +607,7 @@ ul.facets-faceted-navigation-item-facet-optionlist-extra.collapse.in {
   }
 }
 
-//TT new styles : pagination
+// new styles : pagination
 div.facets-facet-browse-pagination {
   margin-top: $sc-margin-lv3;
   // Pagination
@@ -620,7 +620,7 @@ div.facets-facet-browse-pagination {
         background: #e4e4e4;
         // Active page
         &.global-views-pagination-active {
-          color: $tt-theme-text-selected-font-color;
+          color: $sdb-theme-text-selected-font-color;
           background: $sc-color-primary;
         }
       }
